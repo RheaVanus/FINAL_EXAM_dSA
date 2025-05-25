@@ -14,7 +14,7 @@
 /*A function that checks i varE is palindrome or equal when it was still equal to the original input.
 After checking, it will return two values, 'true' if the argument is true, and 'false' if not.
 */
-function isPalin(varE, rev){ 
+function isPalin(varE, rev){ //isPalin is a function where it checks if the user input is still true after the reversal, if  not then false.
     if (varE === rev){
         return true
     }else{
@@ -23,8 +23,8 @@ function isPalin(varE, rev){
 }
 
 //Prompts the user to type RACECAR and RECORDER.
-let varE1 = prompt("Type RACECAR: ")
-let varE2 = prompt("Type RECORDER: ")
+let varE1 = prompt("Type RACECAR: ")//As the requirements said, the user is asked to type Racecar.
+let varE2 = prompt("Type RECORDER: ")//As the requirements said, the user is asked to type Racecar.
 
 //Logs the original output of varE1 and varE2 
 console.log(varE1)
